@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<RSLogix5000Content SchemaRevision="1.0" SoftwareRevision="32.01" TargetName="UDT_Top" TargetType="DataType" ContainsContext="true" ExportDate="Wed Dec 18 10:26:52 2024" ExportOptions="NoRawData L5KData DecoratedData Context Dependencies ForceProtectedEncoding AllProjDocTrans">
+<Controller Use="Context" Name="PLC">
+<DataTypes Use="Context">
+<DataType Use="Target" Name="UDT_Top" Family="NoFamily" Class="User">
+<Members>
+<Member Name="member1" DataType="DINT" Dimension="0" Radix="Decimal" Hidden="false" ExternalAccess="Read/Write"/>
+<Member Name="member2" DataType="UDT_Sub" Dimension="0" Radix="NullType" Hidden="false" ExternalAccess="Read/Write"/>
+</Members>
+<Dependencies>
+<Dependency Type="DataType" Name="UDT_Sub"/>
+</Dependencies>
+</DataType>
+</DataTypes>
+</Controller>
+</RSLogix5000Content>

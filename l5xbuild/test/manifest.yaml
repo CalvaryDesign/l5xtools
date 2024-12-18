@@ -1,0 +1,9 @@
+MajorRevision: 32
+Import:
+  - FilePath: test/Controller/DataTypes/UDT_Sub.L5X
+    XPath: Controller/DataTypes/DataType[@Name='UDT_Sub']
+  - FilePath: test/Controller/DataTypes/UDT_Top.L5X
+    XPath: Controller/DataTypes/DataType[@Name='UDT_Top']
+Export:
+  - FilePath: test/build/UDT_Top.L5X
+    XPath: Controller/DataTypes/DataType[@Name='UDT_Top']
